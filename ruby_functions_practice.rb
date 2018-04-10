@@ -54,11 +54,11 @@ def number_to_short_month_name(n)
   end
 end
 
-def length_of_side(x)
+def volume_of_cube(x)
   return 3**3
 end
 
-def radius(x)
+def volume_of_sphere(x)
   return ((Math::PI * (5**3)) * 4/3).round(1)
 end
 
