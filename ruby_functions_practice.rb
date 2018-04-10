@@ -61,3 +61,7 @@ end
 def radius(x)
   return ((Math::PI * (5**3)) * 4/3).round(1)
 end
+
+def fahrenheit_to_celsius(x)
+  return ((90 - 32) / 1.8).round(2)
+end
