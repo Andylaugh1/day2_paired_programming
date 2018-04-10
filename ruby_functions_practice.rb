@@ -53,3 +53,7 @@ def number_to_short_month_name(n)
     return "Sep"
   end
 end
+
+def length_of_side(x)
+  return 3**3
+end
