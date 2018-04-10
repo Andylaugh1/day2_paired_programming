@@ -57,3 +57,7 @@ end
 def length_of_side(x)
   return 3**3
 end
+
+def radius(x)
+  return ((Math::PI * (5**3)) * 4/3).round(1)
+end
